@@ -1,2 +1,1 @@
-# mypython
-python is interesting!
+http://www.runoob.com/
