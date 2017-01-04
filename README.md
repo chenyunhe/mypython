@@ -1,2 +1,2 @@
 # mypython
-no words
+python is interesting!
