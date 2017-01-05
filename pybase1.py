@@ -50,3 +50,4 @@ print tuple[1]
 num=raw_input("Enter a number  :")
 print '输入的数字是：'+num
 
+
