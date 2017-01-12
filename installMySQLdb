@@ -1,0 +1,20 @@
+python支持mysql
+
+为了用DB-API编写MySQL脚本，必须确保已经安装了MySQL。复制以下代码，并执行：
+#!/usr/bin/python
+# -*- coding: UTF-8 -*-
+
+import MySQLdb
+如果执行后的输出结果如下所示，意味着没有安装 MySQLdb 模块：
+Traceback (most recent call last):
+  File "mysql.py", line 3, in <module>
+    import MySQLdb
+ImportError: No module named MySQLdb
+
+
+如何安装MySQLdb?
+yum search MySQL-python 
+yum install MySQL-python
+再次执行,不报错误则说明安装成功
+
+测试demo见 mysql.py
