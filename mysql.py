@@ -19,4 +19,8 @@ print "Database version : %s " % data
 
 # 关闭数据库连接
 db.close()
+
+##增加端口的连接方式
+#db=MySQLdb.connect(host=ip,user=DBUSER,passwd=DBPASSWORD,db=dbname,port=int(port));
 ~           
+
